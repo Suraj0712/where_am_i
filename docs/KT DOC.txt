@@ -1,0 +1,14 @@
+-> Kalman filter
+
+its iterative probabilistic state estimation algorithm to determine state of the dynamic system
+it works in two steps prediction step and correction step
+in the prediction step we take the current state and control inputs as a input to predict the next state of the system
+in the correction step it uses the sensor observation to limit the states space
+kalman filter is for continouhs states space
+in kalman filter beleif is represented by mean and covariance
+we aslo assume markov assumption while using kalman filter
+kalman filter assumes that the prediction and measurement steps are linearly proportional to variables
+
+its light on memory because we only store the previous position
+it also assume that the variables are distributed normally
+
